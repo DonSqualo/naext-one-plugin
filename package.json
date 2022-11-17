@@ -1,0 +1,25 @@
+{
+  "name": "logseq-naext-one",
+  "version": "0.0.1",
+  "author": "Naext.one",
+  "main": "dist/index.html",
+  "description": "Control your attention.",
+  "scripts": {
+    "dev": "parcel index.html --port 1235",
+    "build": "parcel build --public-url ./ --no-source-maps index.html  --no-minify"
+  },
+  "logseq": {
+    "icon": "./icon.png",
+    "id": "logseq-naext-one"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.1-alpha.35"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "license": "MIT",
+  "browserslist": [
+    "chrome 80"
+  ]
+}
